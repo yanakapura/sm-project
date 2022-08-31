@@ -1,0 +1,43 @@
+#underline {
+  display: block;
+  width: 20%;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: -1px;
+  transition: 0.5s;
+}
+
+.section-services__subheader li {
+  &:nth-child(2).active ~ #underline {
+    transform: translateX(100%);
+  }
+  &:nth-child(3).active ~ #underline {
+    transform: translateX(200%);
+  }
+  &:nth-child(4).active ~ #underline {
+    transform: translateX(300%);
+  }
+  &:nth-child(5).active ~ #underline {
+    transform: translateX(400%);
+  }
+}
+
+#underline-adaptive {
+  display: block;
+  width: 3rem;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+  bottom: -1px;
+  transition: 0.5s;
+}
+
+.section-projects__header-list li {
+    &:nth-child(2).active ~ #underline-adaptive {
+        transform: translateX(123%);
+      }
+      &:nth-child(3).active ~ #underline-adaptive {
+        transform: translateX(430%);
+      }
+}

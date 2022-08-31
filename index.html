@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header row ">
+      <div class="header__logo logo">
+        <a class="logo__wrapper" href="#">
+          <img class="logo__img" src="img/лого.png" alt="logo" />
+        </a>
+      </div>
+      <a href="#about">о нас</a>
+      <a href="pages/portfolio.html">проекты</a>
+      <a href="#services">услуги</a>
+      <a href="#contacts">контакты</a>
+    </header>
+    <main>
+      <section class="section section-slider"></section>
+      <section class="section section-about grid" id="about">
+        <div class="section__label"><p>о нас</p></div>
+        <div class="section__center">
+          <h2 class="section__title">
+            Сила комплексного подхода к проектированию.
+          </h2>
+          <p>
+            Архитектурное бюро «СМ-Проект» с 2004 года работает на белорусском
+            рынке в области проектирования зданий и строительства. Основной
+            деятельностью проектной мастерской является полный цикл
+            проектирования индивидуальных жилых комплексов, многофункциональных
+            комплексов, бизнес-центров, детских садов.
+          </p>
+          <br />
+          <p>
+            Мы рады предложить Вам свои идеи и готовы с удовольствием исполнить
+            Ваши мечты.
+          </p>
+        </div>
+        <div class="section-about__image-wrapper">
+          <img
+            class="section-about__image"
+            src="img/img5.jpg"
+            alt="img"
+          />
+        </div>
+        <div class=""></div>
+        <div class="section-about__numbers section__center">
+          <h2 class="section__title">СМ-ПРОЕКТ в цифрах</h2>
+          <p>
+            18-и летний опыт проектирования и реализации проектов от 1 000 м2 до
+            100 000 м2
+          </p>
+        </div>
+        <div class="section-about__grid">
+          <ul class="section-about__list grid-2-2">
+            <li><span>1</span>Комплексный подход к проектированию</li>
+            <li><span>2</span>Анализ проектных решений</li>
+            <li>
+              <span>3</span>Применение новейших проектных и технических решений.
+            </li>
+            <li>
+              <span>4</span>
+              Объединение возможностей проектировщиков архитекторов,
+              конструкторов, инженеров, дизайнеров
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section section-projects" id="projects">
+        <div class="section-projects__header grid">
+          <div class="section__label"><p>проекты</p></div>
+          <div class="section-projects__header-center section__center">
+            <h2 class="section__title">Последние работы</h2>
+          </div>
+          <div class="section-projects__header-right">
+            <ul class="section-projects__header-list">
+              <li class="section-projects__header-item">Все</li>
+              <li class="section-projects__header-item">Жилые здания</li>
+              <li class="section-projects__header-item">Интерьеры</li>
+              <span id="underline-adaptive"></span>
+            </ul>
+          </div>
+        </div>
+        <div class="section-projects__grid gallery grid">
+          <div class="gallery__item">
+            <div class="gallery__wrapper">
+              <img class="gallery__img width" src="img/img.jpg" alt="" />
+            </div>
+            <div class="gallery__label">
+              <h3 class="gallery__header">Вишневка</h3>
+              <span class="material-symbols-outlined gallery__icon">
+                south_east
+              </span>
+            </div>
+          </div>
+          <div class="gallery__item">
+            <div class="gallery__wrapper">
+              <img class="gallery__img width" src="img/img4.jpg" alt="" />
+            </div>
+            <div class="gallery__label">
+              <h3 class="gallery__header">Вишневка</h3>
+              <span class="material-symbols-outlined gallery__icon">
+                south_east
+              </span>
+            </div>
+          </div>
+          <div class="gallery__item">
+            <div class="gallery__wrapper">
+              <img class="gallery__img height" src="img/img2.jpg" alt="" />
+            </div>
+            <div class="gallery__label">
+              <h3 class="gallery__header">Вишневка</h3>
+              <span class="material-symbols-outlined gallery__icon">
+                south_east
+              </span>
+            </div>
+          </div>
+          <div class="gallery__item">
+            <div class="gallery__wrapper">
+              <img class="gallery__img width" src="img/img3.jpg" alt="" />
+            </div>
+            <div class="gallery__label">
+              <h3 class="gallery__header">Вишневка</h3>
+              <span class="material-symbols-outlined gallery__icon">
+                south_east
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="section__load-more" id="load-more-projects">
+          <a href="pages/projects.html">загрузить еще</a>
+        </div>
+      </section>
+
+      <section class="section section-services grid" id="services">
+        <div class="section__label"><p>услуги</p></div>
+        <div class="section-services__header">
+          <h2 class="section__title">Направление деятельности</h2>
+          <div class="section-services__subheader">
+            <ul class="tabs-title">
+              <li class="tabs-title__tab active" data-tab="tab-1">Архитектурное проектирование</li>
+              <li class="tabs-title__tab" data-tab="tab-2">Строительное проектирование и конструирование</li>
+              <li class="tabs-title__tab" data-tab="tab-3">Проектирование инженерных сетей</li>
+              <li class="tabs-title__tab" data-tab="tab-4">3D-визуализация</li>
+              <li class="tabs-title__tab" data-tab="tab-5">Перепланировки</li>
+              <span id="underline"></span>
+            </ul>
+          </div>
+        </div>
+        <div class="section-services__tabs tabs">
+          <div class="tabs__tab" data-tab="tab-1">
+            <div class="tabs__header" data-tab_wrapper="wrap-1.1"><h4><span class="tabs__header-number">01</span> Архитектурно-планировочные решения</h4><span class="material-symbols-outlined">
+              expand_more
+              </span></div>
+            <div class="tabs__container" data-tab_wrapper="wrap-1.1">
+              <ul>
+                <li>Разработка архитектурных планов и проектов</li>
+                <li>Коммерческие (административные, офисные) здания</li>
+                <li>Жилые здания</li>
+                <li>Сооружения и места отдыха и развлечений</li>
+              </ul>
+            </div>
+            <div class="tabs__header" data-tab_wrapper="wrap-1.2"><h4><span class="tabs__header-number" >02</span> Архитектурно-планировочные решения</h4><span class="material-symbols-outlined">
+              expand_more
+              </span></div>
+            <div class="tabs__container" data-tab_wrapper="wrap-1.2">
+              <ul>
+                <li>Разработка архитектурных планов и проектов</li>
+                <li>Коммерческие (административные, офисные) здания</li>
+                <li>Жилые здания</li>
+                <li>Сооружения и места отдыха и развлечений</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tabs__tab" data-tab="tab-2">tab 2</div>
+          <div class="tabs__tab" data-tab="tab-3">tab 3</div>
+          <div class="tabs__tab" data-tab="tab-4">tab 4</div>
+          <div class="tabs__tab" data-tab="tab-5">tab 5</div>
+          <button class="section-services__button btn btn-black">Отправить запрос</button>
+        </div>
+      </section>
+
+      <section class="section section-form grid">
+        <div class="section-form__bg">
+          <img src="img/img3.jpg" alt="background image">
+        </div>
+        <div class="section__label"><p>Let's meet!</p></div>
+        <div class="section__center"><h2 class="section-form__text">Свяжитесь с нами чтобы мы подобрали лучшее решение для вас</h2></div>
+        <div class="section-form__form">
+          <input type="text" class="section-form__input" placeholder="ФИО" required>
+          <input type="email" class="section-form__input" placeholder="Email" required>
+          <input type="text" class="section-form__input" placeholder="Напишите что-нибудь" required>
+          <input type="submit"class="section-form__btn btn btn-white">
+        </div>
+      </section>
+
+      <section class="section section-contact grid" id="contacts">
+        <div class="section__label"><p>Контакты</p></div>
+        <!-- <div class="section-contact__header"> -->
+          <h2 class="section-contact__title section__title">По любым вопросам</h2>
+          <ul class="section-contact__subtitles">
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">form</a></li>
+          </ul>
+        <!-- </div> -->
+        <div class="section-contact__table">
+          <table class="table">
+            <tr class="table__row">
+              <td class="table__city" rowspan="3">Минск</td>
+              <td>Телефон/</td>
+              <td>+375 (29) 123 45 67</td>
+              <td class="table__col-last" rowspan="3">New business equirers Max Shevchenko newenq@isa.ua</td>
+            </tr>
+            <tr>
+              <td>Email/</td>
+              <td>ukraine@sitorov.com</td>
+            </tr>
+            <tr>
+              <td>Адрес/</td>
+              <td class="table__adress">ул. Одоевского 38<br>Офис 11<br>13573 Минск<br>Беларусь</td>
+            </tr>
+            <tr class="table__row">
+              <td class="table__city" rowspan="3">Минск</td>
+              <td>Телефон/</td>
+              <td>+375 (29) 123 45 67</td>
+              <td class="table__col-last" rowspan="3">New business equirers Max Shevchenko newenq@isa.ua</td>
+            </tr>
+            <tr>
+              <td>Email/</td>
+              <td>ukraine@sitorov.com</td>
+            </tr>
+            <tr>
+              <td>Адрес/</td>
+              <td>ул. Одоевского 38<br>Офис 11<br>13573 Минск<br>Беларусь</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__copyrigth">&#169;смпроект-2022</div>
+      <div class="footer__">Все права защищены</div>
+      <div class="footer__socials"><ul>
+        <li><a href="">inst</a></li>
+        <li><a href="">fb</a></li>
+        <li><a href="">tw</a></li>
+        <li><a href="">be</a></li>
+      </ul></div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

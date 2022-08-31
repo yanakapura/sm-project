@@ -1,0 +1,17 @@
+.swiper {
+    margin: 4rem 0;
+
+    &-slide {
+        text-align: center;
+
+        & img {
+            height: 90vh;
+        }
+    }
+
+    &-button {
+        &-prev::after, &-next::after {
+            color: $color-bg-sub;
+        }
+    }
+}

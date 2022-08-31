@@ -1,0 +1,36 @@
+.project-cart {
+  position: relative;
+  cursor: pointer;
+  height: 45rem;
+  width: 45rem;
+  overflow: hidden;
+
+  &__img {
+
+    & img {
+      width: 110%;
+      height: auto;
+
+    }
+  }
+  &__label {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+    & h3 {
+      position: absolute;
+      color: white;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

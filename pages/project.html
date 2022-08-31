@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header row">
+      <div class="header__logo logo">
+        <a class="logo__wrapper" href="../index.html">
+          <img class="logo__img" src="../img/лого.png" alt="logo" />
+        </a>
+      </div>
+      <a href="../index.html#about">о нас</a>
+      <a href="../pages/portfolio.html">проекты</a>
+      <a href="../index.html#services">услуги</a>
+      <a href="../index.html#contacts">контакты</a>
+    </header>
+    <main>
+      <section class="section project">
+        <h2 class="project__title" id="project__title"></h2>
+        <div class="project__gallery swiper">
+          <div class="swiper-wrapper" id="project__swiper-wrapper"></div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <div class="swiper-scrollbar"></div>
+        </div>
+        <div class="project__description" id="project__description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea veniam
+          rerum adipisci repellendus eveniet obcaecati quos, aliquam commodi!
+          Expedita praesentium eligendi qui cupiditate non dolor ullam delectus
+          nostrum provident odit.
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__copyrigth">&#169;смпроект-2022</div>
+      <div class="footer__">Все права защищены</div>
+      <div class="footer__socials">
+        <ul>
+          <li><a href="">inst</a></li>
+          <li><a href="">fb</a></li>
+          <li><a href="">tw</a></li>
+          <li><a href="">be</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="../js/data.js"></script>
+    <script src="../js/project.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="../js/swiper.js"></script>
+    <!-- <script src="../js/script.js"></script> -->
+  </body>
+</html>

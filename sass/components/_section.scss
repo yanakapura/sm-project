@@ -1,0 +1,35 @@
+.section {
+    margin-bottom: 3rem;
+    margin: 10rem 0 !important;
+    padding: 0 $gutter-vertical;
+    &__center {
+        padding-right: 80px;
+    }
+  &__label {
+    text-transform: lowercase;
+    font-size: 13rem;
+    font-weight: 800;
+    font-family: $font-primary;
+    
+    color: $color-bg-light;
+    position: relative;
+
+    & p {
+      position: absolute;
+      width: max-content;
+      z-index: -1;
+      top: -2rem;
+    }
+
+  }
+  &__title {
+      margin-bottom: 3.5rem;
+  }
+
+  &__load-more {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: $font-primary;
+  }
+}

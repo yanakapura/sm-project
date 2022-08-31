@@ -1,0 +1,59 @@
+.section-services__tabs {
+  grid-column: 2/4;
+  height: auto;
+
+  & > div:not(:first-child) {
+    display: none;
+  }
+}
+
+.tabs-title {
+  position: relative;
+
+  &__tab {
+    cursor: pointer;
+  }
+}
+
+.tabs {
+  margin-top: 3rem;
+
+  &__header {
+    margin: 3rem 0 0;
+    padding-bottom: 1rem;
+    @include border-bottom;
+    @include flex-between;
+    cursor: pointer;
+
+    &-number {
+      display: inline-block;
+      font-size: 50%;
+      transform: translateY(-80%);
+    }
+  }
+
+  &__container {
+    overflow: hidden;
+    height: 0rem;
+    transition: .85s ease-out;
+
+    & li {
+      padding-left: 1rem;
+      line-height: 2.8rem;
+    }
+
+    & ul {
+      transition: 0.85s ease-out;
+      margin-left: 1.6rem;
+      margin-top: 2.5rem;
+      transform: translateY(-15rem);
+    }
+
+    &.active ul {
+      transform: translateY(0rem);
+    }
+    &.active {
+      height: 15rem;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.grid {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 27fr 36fr 37fr;
+}
+
+.grid-2-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: repeat(2, 2fr);
+  gap: $gap;
+}
+
+.grid-projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: $gap-sm;
+  list-style: none;
+}
