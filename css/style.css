@@ -461,8 +461,8 @@ h4 {
   width: 45rem;
   overflow: hidden; }
   .project-cart__img img {
-    width: 110%;
-    height: auto; }
+    height: 45rem;
+    width: auto; }
   .project-cart__label {
     position: absolute;
     width: 100%;
