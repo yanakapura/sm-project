@@ -18,6 +18,6 @@
     }
 
     // Edit description
-    document.getElementById("project__description").textContent = currentProject.info
+    document.getElementById("project__description").innerHTML = currentProject.info
 
 
